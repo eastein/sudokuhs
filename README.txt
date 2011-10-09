@@ -26,7 +26,7 @@ pseudocode for these two elements:
       //generate binary not equal constraints over each block
       net = add-block-constraints(net, factor * factor)
       
-      //at this point, the network is a generalize sudoku problem in CSP form, but has no initial state.
+      //at this point, the network is a sudoku problem in generalized CSP form, but has no initial state.
     
       //assign the variables set in the test file
       net = assign-values(net, boardarray)
